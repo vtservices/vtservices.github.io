@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app>
+<html>
 
 <head>
     <meta charset="utf-8">
@@ -13,25 +13,45 @@
 </head>
 
 <body>
-    <main>
-      <ng-include src="'includes/header.html'" scope="" onload=""></ng-include>
-    </main>
-    <div class="section no-pad-bot" id="index-banner">
+    <main  id="home">
+      <nav class="light-blue lighten-1" role="navigation">
+        <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">VTS</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+    
+            </ul>
+            <ul id="nav-mobile" class="side-nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+    
+    <div class="section no-pad-bot" id="index-banner" >
     <div class="container">
       <br><br>
-      <h1 class="header thin center orange-text">Shraddha Engineering Services</h1>
+      <h1 class="header thin center orange-text">Vibha Techno Services</h1>
       <div class="row center">
-        <h5 class="header col s12 light">Providing Maintenance Services. Smartly. Efficiently.</h5>
+        <h5 class="header col s12 light">Providing Best Quality Maintenance Services.</h5>
       </div>
 
       <div class="row center">
-        <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Reach us at : +91919212912</a>
+        <div style="font-size: 3em;text-transform: lowercase;color: lightgrey;font-weight: 200;">Reach Us At</div>
+        <div style="font-size: 4em;font-weight: 900;background: lightskyblue;color: white;">+91 9810981862</div>
       </div>
       <br><br>
     </div>
   </div>
+  <div class="container" >
 
-  <div class="container">
+    <div class="row center">
+        <h4 class="">Specialists In</h4>
+        <p>Spindle Assembly, All Types of Turret, APC, ATC, Ball Screw Repair</p>
+    </div>
     <div class="section">
 
       <!--   Icon Section   -->
@@ -39,7 +59,7 @@
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">HMC, VMC</h5>
+            <h5 class="center">Turning Centers, VMC, HMC</h5>
 
             <p class="center">We provide expert maintenance of Horizontal Machining Center and Vertical Machining Center.</p>
           </div>
@@ -48,7 +68,7 @@
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Turning Centers and CNC Boring</h5>
+            <h5 class="center">CNC Boring, TPP, Injection Moulding, Yusin Robot Teaching</h5>
 
             <p class="center">We provide expert services for Re-conditioning, grinding & machining, contract maintenance and repair services for Turning Centeres and CNC machines</p>
           </div>
@@ -67,13 +87,128 @@
 
     </div>
     <br><br>
+    <div class="section " id="services">
+      <div class="row center">
+          <h3 class="light">Maintenance Services</h3>
+          <p class="" >
+            We are a leader in offering a best quality of Maintenance Service to our clients. Our professionals offers these services using advanced methodologies and instruments so as to provide our clients with best-in-class services. These services are available as per the requirements of the client.
+          </p>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col m6">
+          <img src="cnc.jpeg"/>
 
-    <div class="section">
+        </div>
+        <div class="col m6">
+          <h4 class="">CNC Boring Machine Maintenance Service</h4>
+          <div class="">
+              Features:
 
+              <li>Timely services</li>
+              <li>Customized services</li>
+              <li>Good quality</li>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+          <div class="col m4">
+            <img src="bsr.jpeg"/>
+           
+  
+          </div>
+          <div class="col m8">
+            <h4 class="">Ball Screw Repairing Services</h4>
+            <div class="">
+                Features:
+  
+                <li>Miniature Ball Screw</li>
+                <li>Large Rolled Screw</li>
+                <li>Rotating Nut System</li>
+                <li>New Ball Screw &amp; LM Guide</li>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" style="display: flex;">
+          <div>
+              <img src="ball.jpeg" style="width: 63%;"/>
+              <img src="pmi.jpg"/>
+          </div>
+          <div>
+              <img src="lmguide.jpeg"/>
+              <img src="pmi.jpg"/>
+          </div>
+           
+        </div>
+<hr>
+        <div class="row">
+            <div class="col m4">
+              <img src="vmc.jpeg"/>
+    
+            </div>
+            <div class="col m8">
+              <h4 class="">Vertical Machining Center Service</h4>
+              <div class="">
+                  Features:
+    
+                  <li>Quality Assured</li>
+                  <li>Qualified Engineers</li>
+                  <li>Effective Service</li>
+              </div>
+            </div>
+          </div>
+    </div>
+    <br>
+    <div class="section" id="about">
+      
+      <h5 class="light center">
+          <h3 class="light center">About</h3>
+
+      <p class="center ">
+          Vibha Technical Services was cestablished in the year 2012. We are Service Provider of CNC Boring Machine Maintenance Service. This Machine Maintenance Service is executed by our qualified team of professionals. Our service range is known for its timely delivery, promptness and client centric approach.
+
+          This Machine Maintenance Service is provided under the skilled the skilled expertise of our professionals. In addition, these can be availed at industry leading prices.
+      </p>
+        </h5>
     </div>
   </div>
+<section style="background:lightyellow; text-align:center">
+  <h5 class="contact" style="padding-top: 1em;font-weight: 700;color: lightgrey;">Mail Us At</h5>
+  <div style="font-size: 4em;font-weight: 900;color: grey;padding: 0.1em;">vibhatechnoservices@gmail.com</div>
+</section>
 
-    <ng-include src="'includes/footer.html'" scope="" onload=""></ng-include>
+</main>
+
+  <footer class="page-footer orange">
+    <div class="container">
+        <h4 class="white-text center row">Reach Us</h4>
+
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Vibha Techno Services</h5>
+                <p class="grey-text text-lighten-4">H. No. 2620 A, H. B. Colony, Sector No. 55,
+                    Faridabad-121004, Haryana, India</p>
+                <p class="grey-text text-lighten-4">R. K. Srivastava (CEO)</p>
+                <p class="grey-text text-lighten-4">Ramesh Kumar Verma (Manager)  &nbsp; &nbsp; [ +91 8010604531 ]</p>
+
+                  </div>
+
+            <div class="col l3 s12">
+                <ul>
+                    <li><a class="white-text" href="#!">+91 9810981862</a></li>
+                    <li><a class="white-text" href="#!">+91 7011057971</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            &copy; Vibha Techno Services
+        </div>
+    </div>
+</footer>
 
 
 </body>
